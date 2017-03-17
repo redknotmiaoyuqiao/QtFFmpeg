@@ -44,9 +44,11 @@ LIBS += -lavcodec   \
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    h264decoder.cpp
+    h264decoder.cpp \
+    cameraclient.cpp
 
 HEADERS  += mainwindow.h \
-    h264decoder.h
+    h264decoder.h \
+    cameraclient.h
 
 FORMS    += mainwindow.ui
