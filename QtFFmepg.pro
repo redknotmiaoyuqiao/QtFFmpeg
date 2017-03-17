@@ -49,6 +49,7 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h \
     h264decoder.h \
-    cameraclient.h
+    cameraclient.h \
+    cctcpdatadefine.h
 
 FORMS    += mainwindow.ui
